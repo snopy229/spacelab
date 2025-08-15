@@ -34,6 +34,5 @@ def gen(days:int, work_days:int, rest_days: int, start_date:list)->list:
 
 
 
-
 if __name__=="__main__":
    print(gen(5, 2, 1, [2020, 1, 30]))
